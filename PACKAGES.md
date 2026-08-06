@@ -30,3 +30,7 @@
 ## OS
 - https://github.com/AbsolutionAI/AspenOS
 - https://github.com/AbsolutionAI/gumroad-assets
+
+## Fleet / swarm / edge (BEL-179)
+- https://github.com/AbsolutionAI/aspen-swarm-manager
+- https://github.com/AbsolutionAI/aspen-edge-rrm
