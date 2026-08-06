@@ -1,0 +1,12 @@
+# Lab profile: documentation pointers — run products via their own READMEs
+# Example sidecar API boilerplate for local demos
+services:
+  api-boilerplate:
+    image: node:20-bookworm
+    working_dir: /app
+    volumes:
+      - ../vendor/api-boilerplate:/app
+    command: bash -lc "npm ci && npx prisma db push && npm start"
+    ports:
+      - "127.0.0.1:4000:4000"
+    profiles: ["products"]

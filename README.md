@@ -1,23 +1,23 @@
 # aspen-grove
 
 **License:** Apache-2.0  
-**Role:** Meta compose / lab C2 shell for Aspen packages.
+Meta lab C2 shell for the Aspen package mesh.
 
-## Status
-Scaffold. Packages land in phases: contracts → products → runtime → full compose profiles.
-
-## Profiles (planned)
-- `products` — Gumroad kit demos
-- `agents` — Hermes/Paperclip blueprints (redacted)
-- `full` — lab C2
-
-## Quickstart (scaffold)
+## Quickstart
 ```bash
 make smoke
+docker compose -f compose/agents.yml --profile agents config
 ```
 
-## Map
-See [PACKAGE_MAP](https://github.com/AbsolutionAI/AspenOS/blob/main/docs/PACKAGE_MAP.md) (path may track AspenOS docs until synced).
+## Profiles
+| Profile | File | Purpose |
+|---------|------|---------|
+| products | compose/products.yml | Product demo sidecar pattern |
+| agents | compose/agents.yml | Paperclip lab |
+| matrix | compose/matrix-lab.yml | Pointer to matrix-ops templates |
 
-## Contracts
-https://github.com/AbsolutionAI/aspen-contracts
+## Full index
+See [PACKAGES.md](./PACKAGES.md).
+
+## Map
+Server SoR: `aspen-os/docs/PACKAGE_MAP.md` · Linear project **Aspen Grove — GitHub Package Mesh** · BEL-164

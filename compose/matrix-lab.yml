@@ -1,0 +1,6 @@
+# Prefer cloning aspen-matrix-ops templates; this is a pointer service name only
+services:
+  matrix-docs-pointer:
+    image: alpine:3.20
+    command: ["sh","-c","echo Use https://github.com/AbsolutionAI/aspen-matrix-ops templates && sleep infinity"]
+    profiles: ["matrix"]
