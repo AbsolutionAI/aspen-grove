@@ -38,3 +38,7 @@
 ## Cognitive plugin
 - https://github.com/AbsolutionAI/aspen-langgraph-worker
 
+
+## Adjacent products (2026-08-10)
+- https://github.com/AbsolutionAI/epos-human — Chrome MV3 AI hub (Epichuman)
+- https://github.com/AbsolutionAI/aspen-pcake — intent-gated credential gateway (**not** Aspen Sentinel)
